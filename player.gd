@@ -39,9 +39,8 @@ func _process(delta):
 func _on_body_entered(body):
 	hide() # Le player disparaît lorsqu'il est touché.
 	hit.emit()
-	#$CollisionShape2D.disabled = true
 	# Must be deferred as we can't change physics properties on a physics callback.
-	$COllisionShape2D.set_deferred("disabled", true)
+	$CollisionShape2D.set_deferred("disabled", true)
 	
 func start(pos):
 	position = pos
