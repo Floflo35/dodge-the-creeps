@@ -13,3 +13,9 @@ data_*/
 .godot/uid_cache.bin
 .godot/editor/filesystem_cache8
 .godot/editor/editor_layout.cfg
+.godot/editor/editor_layout.cfg
+.godot/editor/filesystem_cache8
+.godot/uid_cache.bin
+*.cfg
+.godot/uid_cache.bin
+.godot/editor/filesystem_cache8
